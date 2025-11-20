@@ -253,7 +253,7 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
-              <hr />
+              <p style="text-align: center; font-family: sans-serif; letter-spacing: 0.3em; margin: 2rem 0;">=^..^=   =^..^=   =^..^=    =^..^=    =^..^=    =^..^=    =^..^=</p>
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (
                   <BodyComponent {...componentData} />
