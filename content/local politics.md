@@ -70,7 +70,7 @@ good city design alone is so [correlated with the suppression of extremist force
 
 we need to spend more time winning them. more energy. we need to put forward charismatic people with proposals and policies that *follow* the quintessential phrase of "*global denken, lokal handeln*" ("think globally, act locally").
 
-it is a phrase i feel so few parties and forces generally comprehend. they do the thinking part. they tweet the thinking part. but the *acting* part? that happens on the pavement. that happens in the "boring" meetings.
+it is a phrase i feel so few parties and forces generally comprehend. they do the thinking part. they tweet the thinking part. but the *acting* part? that happens on the pavement. that happens in the "boring" meetings. the ones in the city hall where the press doesn't even bother to show up.
 
 if we want to save the world, we might have to start by showing up to a meeting about a park bench.
 
