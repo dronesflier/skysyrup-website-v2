@@ -113,7 +113,7 @@ function randomItem(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initializeGame() {
   const imageEl = document.getElementById('cat-image');
   const optionsEl = document.getElementById('options');
   const resultEl = document.getElementById('result');
@@ -160,6 +160,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  playAgainButton.addEventListener('click', startGame);
+  // Remove old listeners if they exist
+  const newPlayAgainButton = playAgainButton.cloneNode(true);
+  playAgainButton.parentNode.replaceChild(newPlayAgainButton, playAgainButton);
+  
+  newPlayAgainButton.addEventListener('click', startGame);
   startGame();
-});
+}
+
+document.addEventListener('nav', initializeGame);
+
+// Also run on initial page load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeGame);
+} else {
+  initializeGame();
+}

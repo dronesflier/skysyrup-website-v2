@@ -155,12 +155,47 @@ async function loadMoreComments() {
   loading = false;
 }
 
-// Initialize
-window.addEventListener('load', () => {
+// Initialize function
+function initializeGuestbook() {
+  const formElement = document.getElementById('comment-form');
+  const guestbookContainer = document.getElementById('guestbook-container');
+  
+  if (!formElement || !guestbookContainer) return; // Guestbook page not loaded yet
+  
+  // Remove old event listeners by cloning elements
+  const commentForm = document.getElementById('comment-form');
+  const newCommentForm = commentForm.cloneNode(true);
+  commentForm.parentNode.replaceChild(newCommentForm, commentForm);
+  
+  const refreshBtn = document.getElementById('refresh-captcha-btn');
+  const newRefreshBtn = refreshBtn.cloneNode(true);
+  refreshBtn.parentNode.replaceChild(newRefreshBtn, refreshBtn);
+  
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  const newLoadMoreBtn = loadMoreBtn.cloneNode(true);
+  loadMoreBtn.parentNode.replaceChild(newLoadMoreBtn, loadMoreBtn);
+  
+  // Reset state
+  currentPage = 1;
+  loading = false;
+  
+  // Clear previous comments
+  document.getElementById('comments-container').innerHTML = '';
+  document.getElementById('form-status').style.display = 'none';
+  
+  // Fetch and setup
   fetchCaptcha();
   loadMoreComments();
   
-  document.getElementById('comment-form').addEventListener('submit', submitComment);
-  document.getElementById('refresh-captcha-btn').addEventListener('click', fetchCaptcha);
-  document.getElementById('load-more-btn').addEventListener('click', loadMoreComments);
-});
+  newCommentForm.addEventListener('submit', submitComment);
+  newRefreshBtn.addEventListener('click', fetchCaptcha);
+  newLoadMoreBtn.addEventListener('click', loadMoreComments);
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeGuestbook);
+} else {
+  initializeGuestbook();
+}
+
+document.addEventListener('nav', initializeGuestbook);
