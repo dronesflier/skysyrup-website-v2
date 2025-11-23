@@ -28,7 +28,7 @@ local politics? local politics is *homework*. and honestly? i hate homework. i w
 
 local politics is zoning laws, waste management schedules, and arguments about where to put a bike lane. it isn't "sexy" for the algorithm. you can’t make a viral tiktok about a slightly improved jagged-intersection-repair-initiative (well, you *can*, but you have to be really creative).
 
-because the stakes feel lower—nobody is threatening to nuke a hurricane in a city council meeting—we assume the impact is lower. **we are wrong.**
+because the stakes feel lower-nobody is threatening to nuke a hurricane in a city council meeting-we assume the impact is lower. **we are wrong.**
 
 ## the death of democracy and the park next door
 
