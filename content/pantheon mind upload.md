@@ -51,13 +51,16 @@ the people who insist on the "clone" argument are trying to protect something: t
 
 and i think about the people in that show who have to sit with that question. who have to decide: does this person matter to me? and the answer, always, is yes. regardless of the philosophical mess, regardless of the infrastructure, regardless of what it costs them.
 
-i care because it feels unfair to deny that. to call someone a copy when they're standing right in front of you, fully themselves, fully real. and i care because pantheon shows me what happens when someone loves hard enough to reject that denial completely. when they say: no. you're wrong. and they spend 117,649 years proving it.
+i care because it feels unfair to deny that. to call someone a copy when they're standing right in front of you, fully themselves, fully real. and i care because pantheon shows me what happens when someone loves hard enough to reject that denial completely. when they say: no. you're wrong. and they spend a hundred thousand years proving it.
 
 Point is: to me the "Horror" isn't that uploads are fake. to me it's that they're real enough to matter.. and therefore are the ones that matter :3
 
 
+
 *tldrrr; uploads r real and not copies (derogatory) and if u say so ur wrong and missing the point of the show :\<*
+
+
 
 ---
 
-<sup>\* istfg if i read this in 24h and feel like some tech bro wrote it im actually going to explode :sob:</sup> 
+<sup>\* *istfg if i read this in 24h and feel like some tech bro wrote it im actually going to explode :sob:*</sup> 
