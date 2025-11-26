@@ -56,6 +56,8 @@ i care because it feels unfair to deny that. to call someone a copy when they're
 Point is: to me the "Horror" isn't that uploads are fake. to me it's that they're real enough to matter.. and therefore are the ones that matter :3
 
 
+*tldrrr; uploads r real and not copies (derogatory) and if u say so ur wrong and missing the point of the show :\<*
+
 ---
 
 <sup>\* istfg if i read this in 24h and feel like some tech bro wrote it im actually going to explode :sob:</sup> 
