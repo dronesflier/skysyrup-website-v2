@@ -95,6 +95,53 @@ html::before {
   z-index: 9999;
 }
 
+// CRT text glow effect
+p, h1, h2, h3, h4, h5, h6, li, td, th, a, span, div, text, .katex, .math, .typst-doc, .typst-doc * {
+  text-shadow: 
+    0 0 1px rgba(255, 255, 255, 0.15),
+    0 0 2px rgba(255, 255, 255, 0.1),
+    0 0 3px rgba(255, 255, 255, 0.05);
+  animation: text-flicker 0.3s infinite alternate;
+}
+
+// Stronger glow for headers and important text
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 
+    0 0 1px rgba(255, 255, 255, 0.2),
+    0 0 2px rgba(255, 255, 255, 0.15),
+    0 0 3px rgba(255, 255, 255, 0.1);
+}
+
+// Subtle flicker animation for CRT effect
+@keyframes text-flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 72%, 100% {
+    opacity: 1;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 71.999% {
+    opacity: 0.98;
+  }
+}
+
+// Pulsing glow effect for links
+.internal, .external {
+  animation: link-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes link-glow {
+  0% {
+    text-shadow: 
+      0 0 1px rgba(255, 255, 255, 0.15),
+      0 0 2px rgba(255, 255, 255, 0.1),
+      0 0 3px rgba(255, 255, 255, 0.05);
+  }
+  100% {
+    text-shadow: 
+      0 0 1px rgba(255, 255, 255, 0.2),
+      0 0 2px rgba(255, 255, 255, 0.15),
+      0 0 3px rgba(255, 255, 255, 0.1);
+  }
+}
+
 .ntfy-notification {
   justify-content: center;
   padding: 1rem 0;
