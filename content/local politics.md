@@ -8,7 +8,7 @@ just kidding we love everyone here (^_^)
 
 in our daily lives we \[as in we in most first-world-countries\] really just straight-up don't NOTICE 95% of what is done on a federal political level.
 
-seriously, when was the last time a federal law changed the way you walked to the grocery store? and yet, one will find that nearly everyone (almost **90%** in my country's case) will actually turn out to vote in a federal political election.
+seriously, when was the last time a federal law changed the way you walked to the grocery store? and yet, one will find that *lots of people* (almost **83%** in my country's case) will actually turn out to vote in a federal political election.
 
 this is **good**.
 
