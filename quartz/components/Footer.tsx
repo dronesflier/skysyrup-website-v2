@@ -36,7 +36,9 @@ export default ((opts?: Options) => {
                         alt="pukpal.dev's button" /></a>
         <a href="https://sophari.org/"><img src="https://sophari.org/img/sophari.gif" alt="sophari's button" /></a>
         <img src="assets/this_machine_kills_fascists.png" alt="this machine kills fascists" />
-        <img src="assets/pantheon88x31.png" alt="PANTHEON (please watch it please please please please please please)" width="88" height="31" />
+        <a href="https://www.youtube.com/watch?v=Jy2EYLuMN_8">
+          <img src="assets/pantheon88x31.png" alt="PANTHEON (please watch it please please please please please please)" width="88" height="31" />
+        </a>
         <p>
           &copy; {year} skysyrup. {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz" target="_blank" rel="noopener noreferrer"> Quartz {version}</a>.
